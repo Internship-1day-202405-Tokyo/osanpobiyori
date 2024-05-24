@@ -1,0 +1,53 @@
+@charset "UTF-8";
+ /* 全体 */
+ html {
+   /* font-size: 10px; */
+   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+ }
+ /* ヘッダー */
+ .top-container {
+   display: flex;
+   justify-content: space-between;
+   margin: auto;
+   border-bottom: 4px solid;
+ }
+  .top-container-item_left h1 {
+   transition: all 0.3s ease 0s;
+ }
+  .top-container-item_right ul li a {
+   text-decoration: none;
+ }
+  .nav-item {
+   text-align: center;
+   color: #ffffff;
+   font-weight: bold;
+   background-color: #ffffff;
+   border-radius: 10px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s;
+    transition: all 1s;
+   }
+    .nav-item a {
+     color: #000000;
+   }
+    .nav-container {
+     display: grid;
+     list-style: none;
+     grid-template-columns: 110px 110px 110px;
+     margin: 2rem auto;
+   }
+/* マウスオーバー時 */
+ .nav-item:hover {
+   background-color: #000000;
+   cursor: pointer;
+ }
+  .nav-item a:hover {
+   color: #ffffff;
+   cursor: pointer;
+ }
+  .top-container-item_left h1:hover {
+   cursor: pointer;
+   transform: scale(1.5);
+ }
