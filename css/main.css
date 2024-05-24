@@ -10,17 +10,17 @@ main {
 
 #service-overview {
   padding: 10px;
-  margin: auto;
-  margin: 50px auto;
+  margin: 3rem auto;
   color: #2c2c2f;
   border: solid 3px #fbdb0e;
   max-width: 650px;
 }
 
 .headline {
+  display: inline-block;
   font-size: 1.5rem;
   font-weight: bold;
-  margin: 1.5rem 0;
+  margin: 1.5rem auto;
 }
 .sentense {
   margin: 1.5rem 0;
@@ -29,8 +29,7 @@ main {
 
 #service-details {
   padding: 10px;
-  margin: auto;
-  margin: 0px auto;
+  margin: 4rem auto;
   color: #2c2c2f;
   border: solid 3px #fbdb0e;
   max-width: 650px;
@@ -53,6 +52,10 @@ main {
   border-radius: 1rem;
 }
 
+#machine-overview {
+  margin: 4rem auto;
+}
+
 #machine-detail {
   width: 80%;
   margin: auto;
@@ -62,6 +65,41 @@ main {
   font-size: 1.5rem;
   font-weight: bold;
 }
+
+.join-button {
+  position: fixed;
+  border: none;
+  top: 0px;
+  right: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  background: #fbdb0e;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px 0;
+}
+.join-button:hover {
+  border-radius: 50%;
+  background: #fbcf0e;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px 0;
+}
+.join-button > span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#machine-detail {
+  margin-top: 7rem;
+}
+
 .machine-contents-detail {
   margin: auto;
   display: flex;
@@ -71,16 +109,24 @@ main {
 }
 
 .machine-contents_items {
-  width: 80%;
+  width: 40%;
   display: flex;
   justify-content: space-around;
-  margin: auto;
+  margin: 3rem auto;
   text-align: center;
   padding: 10px;
   margin-bottom: 2rem;
 }
 
+.machine-img {
+  flex: 2;
+}
+.machine-img > img {
+  width: 100%;
+}
+
 .machine-contents_items_text {
+  flex: 3;
   margin: auto 3rem;
   text-align: center;
 }
