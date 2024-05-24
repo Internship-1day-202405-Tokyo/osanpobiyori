@@ -1,0 +1,20 @@
+@charset "UTF-8";
+ /* フッター */
+.table-container {
+   margin: 0 auto; /* 横方向に中央揃え */
+   width: fit-content; /* テーブルの幅に合わせる */
+}
+
+td {
+  color: black;
+}
+
+th {
+  color: black;
+}
+
+footer {
+  text-align: center;
+  background-color: white;
+  color: black;
+}
