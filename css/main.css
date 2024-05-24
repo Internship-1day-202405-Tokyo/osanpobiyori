@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* 全体 */
+html {
+  /* font-size: 10px; */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+main {
+  text-align: center;
+}
+
+#service-overview {
+  padding: 10px;
+  margin: auto;
+  margin: 50px auto;
+  color: #2c2c2f;
+  border: solid 3px #fbdb0e;
+  max-width: 650px;
+}
+
+.headline {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1.5rem 0;
+}
+.sentense {
+  margin: 1.5rem 0;
+  font-size: 1rem;
+}
+
+#service-details {
+  padding: 10px;
+  margin: auto;
+  margin: 0px auto;
+  color: #2c2c2f;
+  border: solid 3px #fbdb0e;
+  max-width: 650px;
+}
+
+#service-details > p {
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+}
+
+.machine-images-contents {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  gap: 30px;
+  max-width: fit-content;
+  margin: 3rem auto;
+}
+.images-contents_items {
+  background-color: #fbdb0e;
+  border-radius: 1rem;
+}
+
+#machine-detail {
+  width: 80%;
+  margin: auto;
+}
+
+#machine-detail > h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.machine-contents-detail {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.machine-contents_items {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 2rem;
+}
+
+.machine-contents_items_text {
+  margin: auto 3rem;
+  text-align: center;
+}
