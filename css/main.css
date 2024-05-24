@@ -10,8 +10,7 @@ main {
 
 #service-overview {
   padding: 10px;
-  margin: auto;
-  margin: 50px auto;
+  margin: 3rem auto;
   color: #2c2c2f;
   border: solid 3px #fbdb0e;
   max-width: 650px;
@@ -29,8 +28,7 @@ main {
 
 #service-details {
   padding: 10px;
-  margin: auto;
-  margin: 0px auto;
+  margin: 4rem auto;
   color: #2c2c2f;
   border: solid 3px #fbdb0e;
   max-width: 650px;
@@ -53,6 +51,10 @@ main {
   border-radius: 1rem;
 }
 
+#machine-overview {
+  margin: 7rem auto;
+}
+
 #machine-detail {
   width: 80%;
   margin: auto;
@@ -71,10 +73,10 @@ main {
 }
 
 .machine-contents_items {
-  width: 80%;
+  width: 40%;
   display: flex;
   justify-content: space-around;
-  margin: auto;
+  margin: 3rem auto;
   text-align: center;
   padding: 10px;
   margin-bottom: 2rem;
