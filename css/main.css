@@ -17,9 +17,10 @@ main {
 }
 
 .headline {
+  display: inline-block;
   font-size: 1.5rem;
   font-weight: bold;
-  margin: 1.5rem 0;
+  margin: 1.5rem auto;
 }
 .sentense {
   margin: 1.5rem 0;
@@ -52,7 +53,7 @@ main {
 }
 
 #machine-overview {
-  margin: 7rem auto;
+  margin: 4rem auto;
 }
 
 #machine-detail {
@@ -64,6 +65,41 @@ main {
   font-size: 1.5rem;
   font-weight: bold;
 }
+
+.join-button {
+  position: fixed;
+  border: none;
+  top: 0px;
+  right: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  background: #fbdb0e;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px 0;
+}
+.join-button:hover {
+  border-radius: 50%;
+  background: #fbcf0e;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px 0;
+}
+.join-button > span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#machine-detail {
+  margin-top: 7rem;
+}
+
 .machine-contents-detail {
   margin: auto;
   display: flex;
@@ -82,7 +118,15 @@ main {
   margin-bottom: 2rem;
 }
 
+.machine-img {
+  flex: 2;
+}
+.machine-img > img {
+  width: 100%;
+}
+
 .machine-contents_items_text {
+  flex: 3;
   margin: auto 3rem;
   text-align: center;
 }
