@@ -1,4 +1,3 @@
-# osanpobiyori
 ## osanpobiyori
  issue名、コミット名、プルリクエスト名、ブランチ名の命名規則
 
